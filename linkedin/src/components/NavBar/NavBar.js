@@ -24,7 +24,7 @@ class NavBar extends React.Component {
     return(
     <div className="navBar__container">
       <div className="container__box">
-        <div className="container__box-link">Li</div>
+        <div className="container__box-link">LINK-ed in</div>
         <form onSubmit={this.handleSearchSubmit}>
           <input type="text" value={this.state.searchValue} placeholder=" &#x2315; Search" onChange={this.handleSearchChange} />
         </form>

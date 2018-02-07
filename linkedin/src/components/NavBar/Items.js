@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Items(props) {
-  const mainBox = {
+  const mainBoxStyle = {
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
@@ -11,7 +11,7 @@ function Items(props) {
     height: '30px',
   };
   return (
-    <div style={mainBox}>
+    <div style={mainBoxStyle}>
       <img src={props.info.icon} style={imageStyle} alt="broken" />
       <div>{props.info.text}</div>
     </div>

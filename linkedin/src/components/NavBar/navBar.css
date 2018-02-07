@@ -1,6 +1,7 @@
 .navBar__container {
   display: flex;
   background: #c9c9c9;
+  justify-content: space-around;
 }
 .navBar__container .container__box {
   display: flex;

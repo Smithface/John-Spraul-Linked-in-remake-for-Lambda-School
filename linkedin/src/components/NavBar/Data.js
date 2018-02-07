@@ -19,6 +19,10 @@ const Data = [
     icon: 'https://image.flaticon.com/icons/svg/107/107822.svg',
     text: 'Notifications',
   },
+  {
+    icon: 'https://78.media.tumblr.com/bac3d941d82704974f88c6cdc6f8f2d4/tumblr_on09g1Abs11siygpno1_250.png',
+    text: 'Me \u2B9F'
+  }
 ]
 
 export default Data;
