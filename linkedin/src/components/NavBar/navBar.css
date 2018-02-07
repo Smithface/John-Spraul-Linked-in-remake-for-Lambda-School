@@ -1,0 +1,13 @@
+.navBar__container {
+  display: flex;
+  background: #c9c9c9;
+}
+.navBar__container .container__box {
+  display: flex;
+}
+.navBar__container .container__box .container__box-link {
+  width: 40px;
+  height: 40px;
+  color: white;
+  background: green;
+}
