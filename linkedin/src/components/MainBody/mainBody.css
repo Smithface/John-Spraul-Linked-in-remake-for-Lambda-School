@@ -3,19 +3,27 @@
   padding: 0 15%;
 }
 
+.container__box-grey {
+  background: darkgray;
+}
+
 .container__box-left {
   width: 15%;
   height: 500px;
-  background: darkgrey;
 }
 
 .container__box-middle {
-  width: 40%;
-  background: darkgrey;
+  width: 55%;
+}
+
+.container__box-topMiddle {
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 0 1%;
+  justify-content: space-between;
 }
 
 .container__box-right {
   width: 25%;
   height: 450px;
-  background: darkgrey;
 }
