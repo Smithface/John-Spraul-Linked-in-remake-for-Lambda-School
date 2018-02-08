@@ -5,6 +5,7 @@
 }
 .navBar__container .container__box {
   display: flex;
+  align-items: center;
 }
 .navBar__container .container__box .container__box-link {
   width: 40px;
