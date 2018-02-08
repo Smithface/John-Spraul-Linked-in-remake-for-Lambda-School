@@ -6,7 +6,7 @@
 .container__box-grey {
   background: darkgray;
   border: 1px solid grey;
-  box-shadow: 5px 5px 15px 1px rgba(5, 5, 5, .5);
+  box-shadow: 2px 5px 10px 1px rgba(5, 5, 5, .2);
 }
 
 .container__box-left {

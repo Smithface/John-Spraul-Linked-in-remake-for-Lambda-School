@@ -18,3 +18,7 @@
 .navBar__container .container__box .container__box-search {
   height: 40px;
 }
+.navBar__container .container__box .container__box-search::-webkit-input-placeholder {
+  font-size: 15px;
+  padding-left: 40px;
+}
