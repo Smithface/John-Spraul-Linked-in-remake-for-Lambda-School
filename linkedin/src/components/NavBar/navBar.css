@@ -11,4 +11,9 @@
   height: 40px;
   color: white;
   background: green;
+  margin-right: 20px;
+  border-radius: 10%;
+}
+.navBar__container .container__box .container__box-search {
+  height: 40px;
 }
