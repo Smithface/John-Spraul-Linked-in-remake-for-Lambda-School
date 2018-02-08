@@ -1,5 +1,7 @@
 import React from 'react';
 import './mainBody.css';
+import dummyData from './dummyData';
+import Links from './Links';
 
 class MainBody extends React.Component {
   state = {
@@ -46,7 +48,11 @@ class MainBody extends React.Component {
           </div>
           <div>
             <div>people you may know</div>            {/* People you may know */}
-            <div></div>            {/* insert a shit ton of people */}
+            <div>            {/* insert a shit ton of people */}
+              {dummyData.map((link, i) => {
+                return <Links key={i+'a'} linkInfo={link} />
+              })}
+            </div>
           </div>
         </div>{/* Middle Div END */}
 
