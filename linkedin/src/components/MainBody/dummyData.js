@@ -12,7 +12,7 @@ const dummyData = [
     links: 'Duck Link and 34 others',
   },
   {
-    picture: 'htts://rocketdock.com/images/screenshots/Adium-Duck-Link.jpg',
+    picture: 'https://rocketdock.com/images/screenshots/Adium-Duck-Link.jpg',
     name: 'Duck Link',
     work: 'Quacker and Peacelover',
     links: 'None',

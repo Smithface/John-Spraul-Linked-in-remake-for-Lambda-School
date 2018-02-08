@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <NavBar />
-        <div>Ad ad ad ad, ad ad ad ad adad ad ad ad ad ad a add ad.</div>
+        <div className="text">Ad ad ad ad, ad ad ad ad adad ad ad ad ad ad a add ad ad ad ad ad ad ad.</div>
         <MainBody />
       </div>
     );

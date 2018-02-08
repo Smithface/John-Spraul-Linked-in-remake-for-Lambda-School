@@ -5,6 +5,8 @@ function Items(props) {
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
+    alignItems: 'center',
+    marginRight: '10px',
   };
   const imageStyle = {
     width: '30px',

@@ -13,6 +13,7 @@ class MainBody extends React.Component {
     const styleFlexBoxRow = {
       display: 'flex',
       flexDirection: 'row',
+      flexWrap: 'wrap',
     }
 
     const styleFlexBoxColumn = {
@@ -48,7 +49,7 @@ class MainBody extends React.Component {
           </div>
           <div>
             <div>people you may know</div>            {/* People you may know */}
-            <div>            {/* insert a shit ton of people */}
+            <div style={styleFlexBoxRow}>            {/* insert a shit ton of people */}
               {dummyData.map((link, i) => {
                 return <Links key={i+'a'} linkInfo={link} />
               })}
