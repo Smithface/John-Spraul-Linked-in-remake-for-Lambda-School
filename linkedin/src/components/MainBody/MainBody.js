@@ -25,20 +25,20 @@ class MainBody extends React.Component {
     return(
       <div style={styleFlexBoxRow} className ="mainBody__container">
         <div style={styleFlexBoxColumn} className="container__box container__box-grey container__box-left">{/* Leftmost Div START */}
-          <div style={styleFlexBoxColumn}>
+          <div style={styleFlexBoxColumn} className="box-left__top">
             <div>913</div>            {/* Number */}
             <div>Your connections</div>            {/* Your Connections */}
             <div>See all</div>            {/* See All */}
             <div>pictures</div>            {/* pictures */}
           </div>          {/* Top END */}
-          <div style={styleFlexBoxColumn}>
+          <div style={styleFlexBoxColumn} className ="box-left__middle"> 
             <div>Add Personal Contacts</div>            {/* add personal contacts */}
             <div>email</div>            {/* type email form */}
-            <div>Continue</div>            {/* continue button */}
+            <button>Continue</button>            {/* continue button */}
             <div>more options</div>            {/* more options */}
           </div>          {/* Middle END */}
           <div style={styleFlexBoxColumn}>
-            <div>some words</div>
+            <div>We'll import your address book to suggest connections. Learn more</div>
           </div>          {/* Bottom END */}
         </div>{/* Leftmost DIV END */}
 

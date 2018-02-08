@@ -14,6 +14,20 @@
   height: 500px;
 }
 
+.box-left__top {
+  width: 100%;
+  border-bottom: 1px solid grey;
+}
+
+.box-left__middle {
+  width: 100%;
+  border-bottom: 1px solid grey;
+}
+
+/* .box-left__bottom {
+
+} */
+
 .container__box-middle {
   width: 55%;
 }
