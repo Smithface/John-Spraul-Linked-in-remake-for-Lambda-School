@@ -7,9 +7,10 @@ function Links(props) {
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'flex-start',
-    width: '33.33%',
+    minWidth: '33.33%',
     padding: '10px 0',
     border: '1px solid grey',
+    flex: '1',
   }
 
   const imageStyling = {
@@ -22,13 +23,20 @@ function Links(props) {
     margin: '2px 0',
   }
 
+  const buttonStyling = {
+    background: 'white',
+    color: 'rgb(101, 165, 238)',
+    borderColor: 'rgb(101, 165, 238)',
+    borderRadius: '10%',
+  }
+
   return (
     <div style={wholeBoxStyling}>
       <img style={imageStyling} src={props.linkInfo.picture} alt="superbroken"/>
       <h4 style={textStyling}>{props.linkInfo.name}</h4>
       <p style={textStyling}>{props.linkInfo.work}</p>
       <p style={textStyling}>{props.linkInfo.links}</p>
-      <button>Connect</button>
+      <button style={buttonStyling}>Connect</button>
     </div>
   );
 }
