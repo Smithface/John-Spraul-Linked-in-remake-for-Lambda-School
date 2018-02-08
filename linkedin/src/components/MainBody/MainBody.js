@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './mainBody.css';
 
 class MainBody extends React.Component {
   state = {
@@ -6,29 +7,40 @@ class MainBody extends React.Component {
   }
 
   render() {
+
+    const styleFlexBoxRow = {
+      display: 'flex',
+      flexDirection: 'row',
+    }
+
+    const styleFlexBoxColumn = {
+      display: 'flex',
+      flexDirection: 'column',
+    }
+
     return(
-      <div>
-        <div>{/* Leftmost Div START */}
-          <div>
+      <div style={styleFlexBoxRow}>
+        <div style={styleFlexBoxColumn}>{/* Leftmost Div START */}
+          <div style={styleFlexBoxColumn}>
             <div></div>            {/* Number */}
             <div></div>            {/* Your Connections */}
             <div></div>            {/* See All */}
             <div></div>            {/* pictures */}
           </div>          {/* Top END */}
-          <div>
+          <div style={styleFlexBoxColumn}>
             <div></div>            {/* add personal contacts */}
             <div></div>            {/* type email form */}
             <div></div>            {/* continue button */}
             <div></div>            {/* more options */}
           </div>          {/* Middle END */}
-          <div>
+          <div style={styleFlexBoxColumn}>
             <div>some words</div>
           </div>          {/* Bottom END */}
         </div>{/* Leftmost DIV END */}
 
-        <div>{/* Middle Div START */}
-          <div>
-            <div></div>            {/* no pending invitations */}
+        <div style={styleFlexBoxColumn}>{/* Middle Div START */}
+          <div style={styleFlexBoxRow}>
+            <div ></div>            {/* no pending invitations */}
             <div></div>            {/* manage all */}
           </div>
           <div>
@@ -37,9 +49,9 @@ class MainBody extends React.Component {
           </div>
         </div>{/* Middle Div END */}
 
-        <div>{/* Right Div START */}
-          <div>
-            <div></div>            {/* Promoted */}
+        <div style={styleFlexBoxColumn}>{/* Right Div START */}
+          <div style={styleFlexBoxColumn}>
+            <div style={styleFlexBoxRow}></div>            {/* Promoted */}
             <div></div>            {/* insert random stuff */}
           </div>
           <hr/>
