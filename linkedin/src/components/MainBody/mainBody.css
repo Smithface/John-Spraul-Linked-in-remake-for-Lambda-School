@@ -1,0 +1,15 @@
+.mainBody__container {
+  justify-content: space-between;
+}
+
+.container__box-left {
+  width: 15%;
+}
+
+.container__box-middle {
+  width: 40%;
+}
+
+.container__box-right {
+  width: 25%;
+}

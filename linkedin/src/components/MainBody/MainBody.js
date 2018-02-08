@@ -16,46 +16,47 @@ class MainBody extends React.Component {
     const styleFlexBoxColumn = {
       display: 'flex',
       flexDirection: 'column',
+      alignItems: 'center',
     }
 
     return(
-      <div style={styleFlexBoxRow}>
-        <div style={styleFlexBoxColumn}>{/* Leftmost Div START */}
+      <div style={styleFlexBoxRow} className ="mainBody__container">
+        <div style={styleFlexBoxColumn} className="container__box-left">{/* Leftmost Div START */}
           <div style={styleFlexBoxColumn}>
-            <div></div>            {/* Number */}
-            <div></div>            {/* Your Connections */}
-            <div></div>            {/* See All */}
-            <div></div>            {/* pictures */}
+            <div>913</div>            {/* Number */}
+            <div>Your connections</div>            {/* Your Connections */}
+            <div>See all</div>            {/* See All */}
+            <div>pictures</div>            {/* pictures */}
           </div>          {/* Top END */}
           <div style={styleFlexBoxColumn}>
-            <div></div>            {/* add personal contacts */}
-            <div></div>            {/* type email form */}
-            <div></div>            {/* continue button */}
-            <div></div>            {/* more options */}
+            <div>Add Personal Contacts</div>            {/* add personal contacts */}
+            <div>email</div>            {/* type email form */}
+            <div>Continue</div>            {/* continue button */}
+            <div>more options</div>            {/* more options */}
           </div>          {/* Middle END */}
           <div style={styleFlexBoxColumn}>
             <div>some words</div>
           </div>          {/* Bottom END */}
         </div>{/* Leftmost DIV END */}
 
-        <div style={styleFlexBoxColumn}>{/* Middle Div START */}
+        <div style={styleFlexBoxColumn} className="container__box-middle">{/* Middle Div START */}
           <div style={styleFlexBoxRow}>
-            <div ></div>            {/* no pending invitations */}
-            <div></div>            {/* manage all */}
+            <div>no pending invitations</div>            {/* no pending invitations */}
+            <div>manage all</div>            {/* manage all */}
           </div>
           <div>
-            <div></div>            {/* People you may know */}
+            <div>people you may know</div>            {/* People you may know */}
             <div></div>            {/* insert a shit ton of people */}
           </div>
         </div>{/* Middle Div END */}
 
-        <div style={styleFlexBoxColumn}>{/* Right Div START */}
+        <div style={styleFlexBoxColumn} className="container__box-right">{/* Right Div START */}
           <div style={styleFlexBoxColumn}>
-            <div style={styleFlexBoxRow}></div>            {/* Promoted */}
+            <div style={styleFlexBoxRow}>Promoted</div>            {/* Promoted */}
             <div></div>            {/* insert random stuff */}
           </div>
           <hr/>
-          <div></div>              {/* all the boring stuff */}
+          <div>boring stuff</div>              {/* all the boring stuff */}
         </div>{/* right Div END */}
       </div>
     );

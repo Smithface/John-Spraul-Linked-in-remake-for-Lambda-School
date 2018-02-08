@@ -6,7 +6,7 @@ import MainBody from './components/MainBody/MainBody';
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="App">
         <NavBar />
         <div>Ad ad ad ad, ad ad ad ad adad ad ad ad ad ad a add ad.</div>
         <MainBody />
