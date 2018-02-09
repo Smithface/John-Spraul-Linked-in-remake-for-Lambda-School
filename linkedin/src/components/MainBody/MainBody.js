@@ -35,8 +35,10 @@ class MainBody extends React.Component {
           </div>          {/* Top END */}
           <div style={styleFlexBoxColumn} className ="box-left__middle"> 
             <div>Add Personal Contacts</div>            {/* add personal contacts */}
-            <div>email</div>            {/* type email form */}
-            <button>Continue</button>            {/* continue button */}
+            <form>           {/* type email form */}
+              <input type="text" placeholder="address@example.com" />
+              <button>Continue</button>            {/* continue button */}
+            </form>
             <div>more options</div>            {/* more options */}
           </div>          {/* Middle END */}
           <div style={styleFlexBoxColumn}>
