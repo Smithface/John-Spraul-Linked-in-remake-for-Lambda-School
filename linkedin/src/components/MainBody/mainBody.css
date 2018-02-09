@@ -61,3 +61,9 @@
 .box-right__bottom {
   flex: 3;
 }
+
+.box-right__sword-picture {
+  max-width: 100%;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}

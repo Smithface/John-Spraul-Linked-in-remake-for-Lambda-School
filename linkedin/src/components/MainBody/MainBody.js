@@ -69,6 +69,7 @@ class MainBody extends React.Component {
             </div>            {/* Spam Ads */}
           </div>
           <hr/>
+          <img className="box-right__sword-picture" src="https://img.nerdburglars.net/wp-content/uploads/2015/08/mastersword.png" alt="Broken Sword" />
           <div className="box-right__bottom">boring stuff</div>              {/* all the boring stuff */}
         </div>{/* right Div END */}
       </div>
