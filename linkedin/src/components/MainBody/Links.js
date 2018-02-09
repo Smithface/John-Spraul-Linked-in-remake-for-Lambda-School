@@ -35,7 +35,7 @@ function Links(props) {
       <img style={imageStyling} src={props.linkInfo.picture} alt="superbroken"/>
       <h4 style={textStyling}>{props.linkInfo.name}</h4>
       <p style={textStyling}>{props.linkInfo.work}</p>
-      <p style={textStyling}>{props.linkInfo.links}</p>
+      <p style={textStyling}><span role="img" aria-label="Link">&#x1F517;</span>{props.linkInfo.links}</p>
       <button style={buttonStyling}>Connect</button>
     </div>
   );
