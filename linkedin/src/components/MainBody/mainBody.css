@@ -18,12 +18,14 @@
   width: 100%;
   border-bottom: 1px solid grey;
   flex: 5;
+  justify-content: center;
 }
 
 .box-left__middle {
   width: 100%;
   border-bottom: 1px solid grey;
   flex: 4;
+  justify-content: center;
 }
 
 /* .box-left__bottom {
@@ -32,6 +34,7 @@
 
 .container__box-middle {
   width: 55%;
+  margin-bottom: 20px;
 }
 
 .container__box-topMiddle {
