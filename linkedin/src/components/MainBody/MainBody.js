@@ -60,16 +60,16 @@ class MainBody extends React.Component {
         </div>{/* Middle Div END */}
 
         <div style={styleFlexBoxColumn} className="container__box-right">{/* Right Div START */}
-          <div style={styleFlexBoxColumn} className="container__box-grey">
+          <div style={styleFlexBoxColumn} className="container__box-grey box-right__top">
             <div style={styleFlexBoxRow}>Promoted</div>            {/* Promoted */}
-            <div style={styleFlexBoxColumn}>
+            <div style={styleFlexBoxColumn} className="box-right__spam">
               {dummyAds.map((ad, i) => {
                 return <Spam key={i+'b'} spamInfo={ad} />
               })}
-            </div>            {/* insert random stuff */}
+            </div>            {/* Spam Ads */}
           </div>
           <hr/>
-          <div>boring stuff</div>              {/* all the boring stuff */}
+          <div className="box-right__bottom">boring stuff</div>              {/* all the boring stuff */}
         </div>{/* right Div END */}
       </div>
     );

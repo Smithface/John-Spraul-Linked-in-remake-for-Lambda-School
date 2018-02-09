@@ -45,3 +45,16 @@
   width: 25%;
   height: 450px;
 }
+
+.box-right__top {
+  flex: 5;
+}
+
+.box-right__spam {
+  justify-content: space-around;
+  flex:1;
+}
+
+.box-right__bottom {
+  flex: 3;
+}

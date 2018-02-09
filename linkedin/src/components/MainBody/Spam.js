@@ -3,7 +3,8 @@ import React from 'react';
 function Spam(props) {
   const wholeBoxStyling = {
     display: 'flex',
-    justifyContent: 'space-around',
+    justifyContent: 'space-between',
+    alignItems: 'center',
     flex: '1',
   };
 
@@ -11,6 +12,8 @@ function Spam(props) {
     height: '50px',
     width: '50px',
     borderRadius: '50%',
+    margin: '0 1%',
+    flex: '1',
   };
 
   const titleStyling = {
@@ -22,7 +25,7 @@ function Spam(props) {
   }
 
   const arrowStyling = {
-    alignSelf: 'center',
+    margin: '0 1%',
   };
 
   return (
