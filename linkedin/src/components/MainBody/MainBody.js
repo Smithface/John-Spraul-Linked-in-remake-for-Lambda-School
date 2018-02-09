@@ -1,7 +1,9 @@
 import React from 'react';
 import './mainBody.css';
 import dummyData from './dummyData';
+import dummyAds from './dummyAds';
 import Links from './Links';
+import Spam from './Spam';
 
 class MainBody extends React.Component {
   state = {
@@ -57,10 +59,14 @@ class MainBody extends React.Component {
           </div>
         </div>{/* Middle Div END */}
 
-        <div style={styleFlexBoxColumn} className="container__box-grey container__box-right">{/* Right Div START */}
-          <div style={styleFlexBoxColumn}>
+        <div style={styleFlexBoxColumn} className="container__box-right">{/* Right Div START */}
+          <div style={styleFlexBoxColumn} className="container__box-grey">
             <div style={styleFlexBoxRow}>Promoted</div>            {/* Promoted */}
-            <div></div>            {/* insert random stuff */}
+            <div style={styleFlexBoxColumn}>
+              {dummyAds.map((ad, i) => {
+                return <Spam key={i+'b'} spamInfo={ad} />
+              })}
+            </div>            {/* insert random stuff */}
           </div>
           <hr/>
           <div>boring stuff</div>              {/* all the boring stuff */}

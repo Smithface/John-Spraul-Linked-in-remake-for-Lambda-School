@@ -17,11 +17,13 @@
 .box-left__top {
   width: 100%;
   border-bottom: 1px solid grey;
+  flex: 5;
 }
 
 .box-left__middle {
   width: 100%;
   border-bottom: 1px solid grey;
+  flex: 4;
 }
 
 /* .box-left__bottom {
